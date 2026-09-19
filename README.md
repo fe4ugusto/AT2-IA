@@ -1,6 +1,6 @@
-# Busca Heurística — Rota de Emergência Urbana
+# Busca Heurística - Rota de Emergência Urbana
 
-**AT2 — Inteligência Artificial**
+**AT2 - Inteligência Artificial**
 
 Aplicação web interativa que implementa uma Busca Heurística para encontrar a rota entre uma **Base de Atendimento** e um **Hospital Central** através de uma rede de vias urbanas fictícia.
 
@@ -25,15 +25,15 @@ Acesse `http://localhost:8080` no navegador.
 
 ## Como Usar
 
-1. **Executar Automático** — Roda a busca completa com animação
-2. **Passo a Passo** — Avança um passo por clique
-3. **Reset** — Reinicia a busca
-4. **Comparar Heurísticas** — Executa com heurística original e modificada, exibindo análise comparativa
+1. **Executar Automático** - Roda a busca completa com animação
+2. **Passo a Passo** - Avança um passo por clique
+3. **Reset** - Reinicia a busca
+4. **Comparar Heurísticas** - Executa com heurística original e modificada, exibindo análise comparativa
 
 ### Trocar Heurística
 Use o seletor no painel de controle para alternar entre:
-- **Original** — Valores baseados em distância estimada
-- **Modificada** — Valores alterados propositalmente
+- **Original** - Valores baseados em distância estimada
+- **Modificada** - Valores alterados propositalmente
 
 ### Velocidade
 Ajuste o slider para controlar a velocidade da animação (100ms a 1500ms).

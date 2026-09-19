@@ -24,15 +24,13 @@
         <p class="header-subtitle">Greedy Best-First Search • Visualização Interativa</p>
       </div>
       <div class="header-badge">
-        <span>🧠</span>
         <span>AT2 — Inteligência Artificial</span>
       </div>
     </div>
   </header>
 
-  <!-- ═══════════════════════════════════════════ -->
   <!-- MAIN LAYOUT                                 -->
-  <!-- ═══════════════════════════════════════════ -->
+
   <main class="main-container">
 
     <!-- ── Grafo ── -->
@@ -59,7 +57,6 @@
       <!-- Controles -->
       <div class="card">
         <div class="card-title">
-          <span class="icon">🎛️</span>
           Painel de Controle
         </div>
 
@@ -67,8 +64,8 @@
         <div class="form-group" style="margin-bottom: 1rem;">
           <label class="form-label" for="heuristic-select">Heurística</label>
           <select class="form-select" id="heuristic-select">
-            <option value="original">📐 Original</option>
-            <option value="modified">⚠️ Modificada</option>
+            <option value="original">Original</option>
+            <option value="modified">Modificada</option>
           </select>
         </div>
 
@@ -84,16 +81,16 @@
         <!-- Botões -->
         <div class="btn-group">
           <button class="btn btn-primary" id="btn-auto">
-            ▶️ Executar Automático
+            Executar Automático
           </button>
           <button class="btn btn-secondary" id="btn-step">
-            ⏭️ Passo a Passo
+            Passo a Passo
           </button>
           <button class="btn btn-warning" id="btn-reset">
-            🔄 Reset
+            Reset
           </button>
           <button class="btn btn-accent" id="btn-compare">
-            🔬 Comparar Heurísticas
+            Comparar Heurísticas
           </button>
         </div>
       </div>
@@ -101,7 +98,6 @@
       <!-- Tabela de Heurísticas -->
       <div class="card">
         <div class="card-title">
-          <span class="icon">📊</span>
           Valores h(n)
         </div>
         <table class="heuristic-table">
@@ -120,7 +116,6 @@
     <!-- ── Log Passo a Passo ── -->
     <section class="card log-section" id="log-section">
       <div class="card-title">
-        <span class="icon">📋</span>
         Log de Execução — Passo a Passo
       </div>
       <div id="log-content">
@@ -142,7 +137,6 @@
     <!-- ── Comparação ── -->
     <section class="card comparison-section" id="comparison-section">
       <div class="card-title">
-        <span class="icon">🔬</span>
         Comparação — Original vs Modificada
       </div>
       <div id="comparison-content">
@@ -152,9 +146,7 @@
 
   </main>
 
-  <!-- ═══════════════════════════════════════════ -->
   <!-- SCRIPTS (ordem importa: dependências primeiro) -->
-  <!-- ═══════════════════════════════════════════ -->
   <script src="js/graph.js"></script>
   <script src="js/search.js"></script>
   <script src="js/visualization.js"></script>

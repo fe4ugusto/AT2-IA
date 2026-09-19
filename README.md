@@ -1,14 +1,14 @@
-# 🚑 Busca Heurística — Rota de Emergência Urbana
+# Busca Heurística — Rota de Emergência Urbana
 
 **AT2 — Inteligência Artificial**
 
 Aplicação web interativa que implementa uma Busca Heurística para encontrar a rota entre uma **Base de Atendimento** e um **Hospital Central** através de uma rede de vias urbanas fictícia.
 
-## 🎯 Objetivo
+## Objetivo
 
 Demonstrar o funcionamento da Busca Heurística com visualização animada passo a passo, mostrando como a função heurística h(n) influencia as decisões do algoritmo durante a exploração do grafo.
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Opção 1: Abrir diretamente no navegador
 Basta abrir o arquivo `index.html` em qualquer navegador moderno (Chrome, Firefox, Edge).
@@ -23,7 +23,7 @@ python -m http.server 8080
 ```
 Acesse `http://localhost:8080` no navegador.
 
-## 🎮 Como Usar
+## Como Usar
 
 1. **Executar Automático** — Roda a busca completa com animação
 2. **Passo a Passo** — Avança um passo por clique
@@ -32,13 +32,13 @@ Acesse `http://localhost:8080` no navegador.
 
 ### Trocar Heurística
 Use o seletor no painel de controle para alternar entre:
-- **📐 Original** — Valores baseados em distância estimada
-- **⚠️ Modificada** — Valores alterados propositalmente
+- **Original** — Valores baseados em distância estimada
+- **Modificada** — Valores alterados propositalmente
 
 ### Velocidade
 Ajuste o slider para controlar a velocidade da animação (100ms a 1500ms).
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 AT2-IA/
@@ -55,7 +55,7 @@ AT2-IA/
 └── README.md             ← Este arquivo
 ```
 
-## 🧠 Algoritmo
+## Algoritmo
 
 **Greedy Best-First Search** com:
 - Seleção por **menor h(n)** entre todos os estados disponíveis
@@ -63,7 +63,7 @@ AT2-IA/
 - Controle de estados visitados para evitar ciclos
 - Registro de predecessores para reconstrução do caminho
 
-## 🗺️ Grafo
+## Grafo
 
 - **12 estados** com nomes urbanos (Base, Centro, Rodoviária, Parque, Shopping, Universidade, Terminal, Ponte, Aeroporto, Hospital, Estádio, Praça)
 - **16 conexões** direcionadas
@@ -71,7 +71,7 @@ AT2-IA/
 - **1 beco sem saída** (Aeroporto)
 - **1 caminho enganoso** (Centro → Shopping → Terminal)
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **HTML5** — Estrutura semântica
 - **CSS3** — Dark theme com glassmorphism e animações
@@ -79,6 +79,6 @@ AT2-IA/
 - **Cytoscape.js** — Visualização interativa do grafo
 - **Google Fonts** — Tipografia Inter
 
-## 📝 Licença
+## Licença
 
 Projeto acadêmico — AT2 Inteligência Artificial.

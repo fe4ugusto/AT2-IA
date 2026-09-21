@@ -185,14 +185,14 @@ async function runStep() {
     currentSearch = new HeuristicSearch(heuristics, ESTADO_INICIAL, ESTADO_OBJETIVO);
     stepCounter = 0;
     clearLog();
-    addLogEntry('info', `🚀 Busca Passo a Passo (${currentHeuristic === 'original' ? 'Original' : 'Modificada'})`);
-    addLogEntry('info', `📍 Origem: ${ESTADO_INICIAL} | 🎯 Destino: ${ESTADO_OBJETIVO}`);
+    addLogEntry('info', `Busca Passo a Passo (${currentHeuristic === 'original' ? 'Original' : 'Modificada'})`);
+    addLogEntry('info', `Origem: ${ESTADO_INICIAL} | Destino: ${ESTADO_OBJETIVO}`);
     addLogEntry('info', `📐 Critério de desempate: Ordem Alfabética`);
     addLogDivider();
   }
 
   if (currentSearch.finalizado) {
-    addLogEntry('warning', '⚠️ Busca já finalizada. Clique em Reset para reiniciar.');
+    addLogEntry('warning', 'Busca já finalizada. Clique em Reset para reiniciar.');
     return;
   }
 
@@ -253,7 +253,7 @@ async function runComparison() {
   setButtonsEnabled(false, false);
 
   clearLog();
-  addLogEntry('info', '🔬 Modo Comparação: Executando ambas heurísticas...');
+  addLogEntry('info', 'Modo Comparação: Executando ambas heurísticas...');
   addLogDivider();
 
   // ── Execução 1: Heurística Original ──
@@ -444,7 +444,7 @@ function displayResults(resultados) {
 
 function displayComparison(res1, res2) {
   if (!res1 || !res2) {
-    addLogEntry('warning', '⚠️ Execute ambas as heurísticas antes de comparar.');
+    addLogEntry('warning', 'Execute ambas as heurísticas antes de comparar.');
     return;
   }
 

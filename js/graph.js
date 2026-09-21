@@ -15,13 +15,13 @@
  *   Quanto mais distante geograficamente, maior o valor.
  * 
  * Requisitos atendidos:
- *   ✅ 12 estados (mínimo 10)
- *   ✅ 16 conexões (mínimo 14)
- *   ✅ 3+ caminhos distintos entre Base e Hospital
- *   ✅ 1 estado sem saída (Aeroporto)
- *   ✅ 1 caminho enganoso (Centro → Shopping → Terminal)
- *   ✅ h(n) = 0 para o objetivo (Hospital)
- *   ✅ Nomes urbanos contextualizados
+ *   12 estados (mínimo 10)
+ *   16 conexões (mínimo 14)
+ *   3+ caminhos distintos entre Base e Hospital
+ *   1 estado sem saída (Aeroporto)
+ *   1 caminho enganoso (Centro → Shopping → Terminal)
+ *   h(n) = 0 para o objetivo (Hospital)
+ *   Nomes urbanos contextualizados
  */
 
 // ──────────────────────────────────────────────
